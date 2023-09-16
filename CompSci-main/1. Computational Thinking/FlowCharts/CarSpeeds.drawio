@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T09:18:20.302Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="Pz-76yms28eavNz8xSC8" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T09:20:41.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="8IMu5MVDmnyDhA9JBSnI" version="21.7.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="882" dy="2323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zULD-CnFrx8nNNYtCCxN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zULD-CnFrx8nNNYtCCxN-0" target="zULD-CnFrx8nNNYtCCxN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zULD-CnFrx8nNNYtCCxN-0" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="-1560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zULD-CnFrx8nNNYtCCxN-2" value="Input top&lt;br&gt;speed of&lt;br&gt;car (km/hr)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="-1430" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
