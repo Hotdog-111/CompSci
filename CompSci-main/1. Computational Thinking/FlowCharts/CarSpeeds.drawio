@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T09:26:50.204Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="QTZeFU_4XtImw1tXB9CL" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T09:27:36.050Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="aYSYk9pv8gb6ixcCHm34" version="21.7.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="882" dy="3923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         <mxCell id="zULD-CnFrx8nNNYtCCxN-6" value="Car number&lt;br&gt;&amp;nbsp;== 500 ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="-1180" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="zULD-CnFrx8nNNYtCCxN-11" value="Find mean average of all cars to speeds" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="zULD-CnFrx8nNNYtCCxN-11" value="Find mean average of all cars top speeds" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="-990" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zULD-CnFrx8nNNYtCCxN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zULD-CnFrx8nNNYtCCxN-14" target="zULD-CnFrx8nNNYtCCxN-2">
