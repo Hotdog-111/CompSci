@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T16:46:06.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="Ua-GwDDo3u7-zNcJnQqr" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T16:48:38.012Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="fBDLVVcLmRRCrupYhknb" version="21.7.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1406" dy="4201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1968" dy="4602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -24,11 +24,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="G7S1scax8ti5tBEs6_KN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zULD-CnFrx8nNNYtCCxN-6" target="zULD-CnFrx8nNNYtCCxN-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="-390" />
+              <mxPoint x="40" y="-1228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zULD-CnFrx8nNNYtCCxN-6" value="Car number&lt;br&gt;&amp;nbsp;== 500 ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="710" y="-990" width="100" height="100" as="geometry" />
+          <mxGeometry x="100" y="-440" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zULD-CnFrx8nNNYtCCxN-11" value="Find mean average of all cars top speeds" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="710" y="-800" width="100" height="100" as="geometry" />
+          <mxGeometry x="100" y="-250" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zULD-CnFrx8nNNYtCCxN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zULD-CnFrx8nNNYtCCxN-14" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -65,8 +73,10 @@
         <mxCell id="G7S1scax8ti5tBEs6_KN-2" value="fastest_speed = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="95" y="-1320" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="G7S1scax8ti5tBEs6_KN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-4" target="G7S1scax8ti5tBEs6_KN-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="G7S1scax8ti5tBEs6_KN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-4" target="G7S1scax8ti5tBEs6_KN-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="-900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="G7S1scax8ti5tBEs6_KN-8" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G7S1scax8ti5tBEs6_KN-7">
           <mxGeometry x="-0.351" y="1" relative="1" as="geometry">
@@ -79,21 +89,25 @@
         <mxCell id="G7S1scax8ti5tBEs6_KN-4" value="&amp;nbsp; top_speed &amp;gt; fastest_speed?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="95" y="-950" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="G7S1scax8ti5tBEs6_KN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-6" target="G7S1scax8ti5tBEs6_KN-14">
+        <mxCell id="G7S1scax8ti5tBEs6_KN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-30" target="G7S1scax8ti5tBEs6_KN-14">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="-860" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="400" y="-705" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G7S1scax8ti5tBEs6_KN-6" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;SET fastest_speed to top_speed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="335" y="-950" width="130" height="100" as="geometry" />
+        <mxCell id="G7S1scax8ti5tBEs6_KN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-850" as="sourcePoint" />
+            <mxPoint x="400" y="-850" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="G7S1scax8ti5tBEs6_KN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-6" target="G7S1scax8ti5tBEs6_KN-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G7S1scax8ti5tBEs6_KN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-6" target="G7S1scax8ti5tBEs6_KN-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="G7S1scax8ti5tBEs6_KN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-850" as="sourcePoint" />
+            <mxPoint x="400" y="-850" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="G7S1scax8ti5tBEs6_KN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-14" target="G7S1scax8ti5tBEs6_KN-19">
           <mxGeometry relative="1" as="geometry">
@@ -108,6 +122,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="G7S1scax8ti5tBEs6_KN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-14" target="zULD-CnFrx8nNNYtCCxN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7S1scax8ti5tBEs6_KN-26" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G7S1scax8ti5tBEs6_KN-25">
+          <mxGeometry x="-0.3581" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="G7S1scax8ti5tBEs6_KN-14" value="top_speed &amp;lt; slowest_speed?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="90" y="-760" width="110" height="110" as="geometry" />
         </mxCell>
@@ -117,14 +139,20 @@
         <mxCell id="G7S1scax8ti5tBEs6_KN-17" value="Slowest_speed = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="95" y="-1410" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="G7S1scax8ti5tBEs6_KN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-19" target="zULD-CnFrx8nNNYtCCxN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="G7S1scax8ti5tBEs6_KN-19" value="SET slowest_speed to car_speed" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="-590" width="100" height="100" as="geometry" />
+          <mxGeometry x="290" y="-520" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="G7S1scax8ti5tBEs6_KN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G7S1scax8ti5tBEs6_KN-20" target="G7S1scax8ti5tBEs6_KN-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G7S1scax8ti5tBEs6_KN-20" value="car_speed = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="G7S1scax8ti5tBEs6_KN-20" value="top_speed = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="95" y="-1130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G7S1scax8ti5tBEs6_KN-30" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;SET fastest_speed to top_speed&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="-950" width="140" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
